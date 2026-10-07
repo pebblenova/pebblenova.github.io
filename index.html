@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pebblenova Games</title>
+<meta name="description" content="Pebblenova Games — small, satisfying mobile games. Creators of Sand Sort Fall.">
+<link rel="icon" href="sand-sort-fall-icon.png">
+<style>
+  :root {
+    --bg: #0d0e15; --card: #161826; --text: #ececf2; --muted: #a2a4b4;
+    --pink: #ff2a85; --cyan: #00f0ff; --yellow: #ffd700; --line: #262838;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; background: var(--bg); color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-image: radial-gradient(circle at 50% -10%, rgba(255, 42, 133, 0.22), transparent 55%);
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 16px 48px; }
+  .studio { font-weight: 900; font-size: clamp(36px, 8vw, 56px); line-height: 1.05; margin: 0;
+    letter-spacing: -0.02em; text-shadow: 0 0 24px rgba(0, 240, 255, 0.45); }
+  .tagline { color: var(--muted); margin: 10px 0 40px; font-size: 19px; }
+  .game {
+    display: flex; gap: 22px; align-items: center; flex-wrap: wrap;
+    background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 22px;
+  }
+  .game img { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 0 28px rgba(255, 42, 133, 0.45); }
+  .game h2 { margin: 0 0 4px; font-size: 26px; }
+  .game p { margin: 0 0 12px; color: var(--muted); }
+  .badge { display: inline-block; padding: 6px 14px; border-radius: 999px; font-weight: 700; font-size: 14px;
+    border: 2px solid var(--yellow); color: var(--yellow); }
+  .info { flex: 1 1 260px; min-width: 0; }
+  h3 { margin: 40px 0 8px; font-size: 18px; color: var(--cyan); }
+  a { color: var(--pink); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1 class="studio">Pebblenova Games</h1>
+  <p class="tagline">Small, satisfying games you can play with one finger.</p>
+
+  <section class="game">
+    <img src="sand-sort-fall-icon.png" alt="Sand Sort Fall app icon">
+    <div class="info">
+      <h2>Sand Sort Fall</h2>
+      <p>Draw a ramp, watch the neon sand flow, and fill every vessel with its own color.
+        A relaxing physics puzzle with a new Daily Impossible stage every day.</p>
+      <span class="badge">Coming soon to the App Store</span>
+    </div>
+  </section>
+
+  <h3>Support</h3>
+  <p>Questions, bugs or ideas? Write to
+    <a href="mailto:pebblenova.games@gmail.com">pebblenova.games@gmail.com</a> — we read every message.</p>
+  <p>Bought <em>Remove Ads</em> and reinstalled the game? Open <strong>SKINS → Restore Purchases</strong>.</p>
+
+  <h3>Privacy</h3>
+  <p><a href="privacy/">Sand Sort Fall Privacy Policy</a></p>
+
+  <footer>© 2026 Pebblenova Games</footer>
+</main>
+</body>
+</html>
